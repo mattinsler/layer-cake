@@ -21,6 +21,7 @@ class LayerCake extends Container
     require './plugins/models'
     
     require './plugins/remote-console'
+    require './plugins/run'
   ]
   
   constructor: (root) ->
